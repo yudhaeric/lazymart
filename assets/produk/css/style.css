@@ -1,0 +1,23 @@
+#produk {
+	float: left;
+	width: 1150px;
+	height: 600px;
+	margin-top: 180px;
+	margin-left: 100px;
+	border-radius: 20px;
+	background-color: #fff;
+	-webkit-box-shadow: 1px 1px 5px 0 #cecece, -1px -1px 3px 0 #cecece;
+	box-shadow: 1px 1px 5px 0 #cecece, -1px -1px 3px 0 #cecece;
+}
+
+.produk-image img {
+	display: inline;
+	width: 400px;
+	height: 430px;
+	margin: 20px 50px;
+}
+
+.produk-name h1 {
+	display: inline;
+	margin-top: 5px;
+}

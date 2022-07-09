@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+.aa-checkout-area {
+	width: 790px;
+	background-color: #fff;
+	position: absolute;
+	top: 150px;
+	margin-left: 100px;
+	border-radius: 10px;
+	border: 1px solid rgb(228, 228, 228);
+	box-shadow: 1px 1px 3px rgb(194, 194, 194);
+}
+
+.aa-checkout-area h1 {
+	font-size: 18px;
+	color: #393D43;
+	margin: 40px 0 20px 40px;
+	font-weight: bold;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.aa-checkout-area p{
+	font-size: 14px;
+	color: #79828a;
+}
+
+.aa-checkout-area p i{
+	font-size: 20px;
+	color: #0091FF;
+	margin: 0 10px 20px 40px;
+}
+
+.aa-checkout-area p a{
+	font-size: 14px;
+	color: #0091FF;
+	margin-left: 562px;
+	font-weight: bold;
+}
+
+.aa-checkout-area-title-border {
+	border: 3px solid #F3F4F5;
+	width: 710px;
+	margin-left: 40px;
+}
+
+.aa-checkout-area-produk i {
+	display: inline;
+	color: #0091FF;
+	font-size: 20px;
+	margin-left: 40px;
+}
+
+.aa-checkout-area-produk img {
+	display: inline;
+	width: 100px;
+	height: 100px;
+}
+
+.aa-checkout-area-produk h2 {
+	font-size: 14px;
+	color: #79828a;
+	margin-left: 170px;
+	margin-top: -85px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+.aa-checkout-area-produk p {
+	color: #79828a;
+	margin-left: 170px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: -10px;
+}
+
+.aa-checkout-area-produk .produk-option {
+	margin: 20px 0;
+}
+
+.aa-checkout-area-produk .produk-option .catatan {
+	color: #0091FF;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-left: 80px;
+}
+
+.aa-checkout-area-produk .produk-option .wishlist {
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-left: 350px;
+}
+
+.aa-checkout-area-produk .produk-option .tambah {
+	margin-left: 455px;
+	margin-top: -20px;
+}
+
+.aa-checkout-area-produk .produk-option .tambah .plus {
+	margin-right: 20px;
+}
+
+.aa-checkout-area-produk .produk-option .tambah .minus {
+	margin-left: 20px;
+}
+
+.aa-checkout-area-produk-border {
+	border: 3px solid #F3F4F5;
+	width: 710px;
+	margin-left: 40px;
+}
+
+.aa-buy-area {
+	background-color: white;
+	position: absolute;
+	top: 150px;
+	left: 920px;
+	width: 320px;
+	border-radius: 10px;
+	padding: 17px 20px;
+	border: 1px solid rgb(228, 228, 228);
+	box-shadow: 1px 1px 5px rgb(194, 194, 194);
+	overflow: hidden;
+}
+
+.aa-buy-area-promo {
+	width: 280px;
+}
+
+.aa-buy-area-promo p img {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.aa-buy-area-promo p {
+	font-size: 14px;
+	color: #79828a;
+	border: 1px solid rgb(212, 212, 212);
+	padding: 15px 10px;
+	border-radius: 10px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.aa-buy-area-promo p i{
+	font-size: 14px;
+	color: #79828a;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.aa-buy-area-border-promo {
+	border: 3px solid #F3F4F5;
+	width: 318px;
+	margin: 20px 0 0 -20px;
+}
+
+.aa-buy-area-ringkasan h1{
+	font-size: 16px;
+	color: #393D43;
+	font-weight: bold;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.aa-buy-area-ringkasan .harga{
+	display: inline;
+	font-size: 14px;
+	color: #9B9EA0;
+	font-weight: lighter;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.aa-buy-area-ringkasan .harga p{
+	display: inline;
+	font-size: 14px;
+	color: #9B9EA0;
+	font-weight: lighter;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	margin-left: 64px;
+}
+
+.aa-buy-area-ringkasan .diskon{
+	display: block;
+	font-size: 14px;
+	color: #9B9EA0;
+	font-weight: lighter;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	margin-top: -20px;
+}
+
+.aa-buy-area-ringkasan .diskon p{
+	display: inline;
+	font-size: 14px;
+	color: #9B9EA0;
+	font-weight: lighter;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	margin-left: 82px;
+}
+
+.aa-buy-area-total .total{
+	font-size: 16px;
+	color: #393D43;
+	font-weight: bold;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+
+.aa-buy-area-total .total p{
+	display: inline;
+	font-size: 16px;
+	color: #393D43;
+	font-weight: bold;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	margin-left: 110px;
+}
+
+.aa-buy-area-border-ringkasan {
+	border: 1px solid rgba(233, 233, 233, 0.808);
+	width: 278px;
+	font-weight: lighter;
+	margin-top: -5px;
+}
+
+.aa-buy-area-border-total {
+	border: 1px solid rgba(233, 233, 233, 0.808);
+	width: 278px;
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+
+.aa-buy-area-button a{
+	background-color: #0091FF;
+	color: white;
+	padding: 15px 115px;
+	border-radius: 10px;
+	font-weight: bold;
+}

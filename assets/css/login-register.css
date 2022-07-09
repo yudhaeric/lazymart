@@ -1,0 +1,198 @@
+.lz-logo {
+	margin-top: 15px;
+	margin-left: 465px;
+	margin-bottom: -50px;
+}
+
+.lz-form-login .text-satu p {
+	font-size: 14px;
+	color: #333;
+}
+
+.lz-form-login .text-satu a {
+	font-size: 14px;
+	color: #0091ff;
+}
+
+.title {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: 5px;
+	color: #333;
+}
+
+.btn-email {
+	margin-top: -5px;
+}
+
+.btn-password {
+	margin-top: -5px;
+}
+
+.btn-login {
+	background-color: #0091ff;
+	border-radius: 10px;
+	height: 50px;
+	margin-top: -5px;
+}
+
+.btn-login:hover {
+	background-color: #41adff;
+	border-radius: 10px;
+	height: 50px;
+}
+
+.btn-login span {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.masuk-dengan {
+	margin-top: 15px;
+	width: 343px;
+	height: 16.5px;
+}
+
+.btn-facebook {
+	width: 168px;
+	height: 40px;
+	margin-left: 12px;
+	margin-right: 37px;
+	border-radius: 10px;
+	color: #333;
+	background-color: white;
+	border: 1px solid #9E949C;
+}
+
+.btn-facebook:hover {
+	color: #333;
+	background-color: rgb(236, 236, 236);
+	border: 1px solid #9E949C;
+}
+
+.btn-facebook img {
+	margin-bottom: 2px;
+}
+
+.btn-facebook p {
+	display: inline;
+	padding-bottom: 5px;
+}
+
+.btn-google {
+	width: 168px;
+	height: 40px;
+	border-radius: 10px;
+	color: #333;
+	background-color: white;
+	border: 1px solid #9E949C;
+}
+
+.btn-google:hover {
+	color: #333;
+	background-color: rgb(236, 236, 236);
+	border: 1px solid #9E949C;
+}
+
+.btn-google img {
+	margin-bottom: 4px;
+}
+
+.lz-form {
+	margin-left: 570px;
+	height: 440px;
+	border: 1px solid #B7B7B7;
+}
+
+.lz-form .text-dua h1 {
+	margin-top: -30px;
+}
+
+.lz-form .text-dua p {
+	margin-top: -20px;
+	font-size: 12px;
+	color: #333;
+}
+
+.lz-form .text-dua a {
+	font-size: 14px;
+	color: #0091ff;
+}
+
+.lz-form .text-tiga p {
+	font-size: 14px;
+	color: #333;
+}
+
+.lz-form .text-tiga a {
+	font-size: 14px;
+	color: #0091ff;
+}
+
+.lz-card {
+	margin-top: -30px;
+}
+
+.lz-logo a {
+	font-family: "Raleway", sans-serif;
+	font-size: 24px;
+}
+
+.lz-logo a>span img {
+	width: 40px;
+	height: 47px;
+	margin-bottom: 25px;
+}
+
+.lz-logo a p {
+	display: inline-block;
+	font-weight: bold;
+	color: #333;
+}
+
+.lz-logo a p:hover {
+	text-decoration: none;
+}
+
+.lz-logo a p span {
+	display: block;
+	font-size: 9px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.lz-logo a strong {
+	color: #0091ff;
+}
+
+.lz-ilus {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+
+.lz-ilus p {
+	position: absolute;
+	font-family: "Kanit", sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+.lz-ilus .text-satu {
+	position: absolute;
+	font-family: "Roboto", sans-serif;
+	font-size: 12px;
+	margin-top: 40px;
+	margin-left: 27px;
+}
+
+.lz-copyright p {
+	margin-top: -5px;
+	color: #0091ff;
+	font-size: 14px;
+	font-family: "Roboto", sans-serif;
+}
