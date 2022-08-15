@@ -1,28 +1,3 @@
-<?php
-if (isset($_POST['addCart'])) {
-    // print_r($_POST['product_id']);
-
-    if (isset($_SESSION['cart'])) {
-        $item_array_id = array_column($_SESSION['cart'], "product_id");
-        print_r($item_array_id);
-
-        if (in_array($_POST['product_id'], $item_array_id)) {
-            echo "<script>alert('Product Is Already Added in the Cart..!')</script>";
-            echo "<script>window.location = <?= base_url('home'); ?></script>";
-        } else {
-        }
-    } else {
-        $item_array = array(
-            'product_id' => $_POST['product_id']
-        );
-
-        // create new session variable
-        $_SESSION['cart'][0] = $item_array;
-        print_r($_SESSION['cart']);
-    }
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,6 +39,8 @@ if (isset($_POST['addCart'])) {
     <!-- Main style sheet -->
     <link href="<?= base_url('assets/'); ?>css/style.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>produk/css/style.css" rel="stylesheet">
+    <!-- My Custom CSS -->
+    <link href="<?= base_url('assets/'); ?>css/home.css" rel="stylesheet">
 
 </head>
 

@@ -40,6 +40,8 @@
     <link href="<?= base_url('assets/'); ?>css/style.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>produk/css/style.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>keranjang/style.css" rel="stylesheet">
+    <!-- My Custom CSS -->
+    <link href="<?= base_url('assets/'); ?>css/home.css" rel="stylesheet">
 </head>
 
 <body>

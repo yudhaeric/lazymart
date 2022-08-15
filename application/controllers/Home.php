@@ -1,4 +1,4 @@
-<!-- CONTROLLER HOME SESUDAH LOGIN -->
+<!-- CONTROLLER HOME SEBELUM LOGIN -->
 
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
