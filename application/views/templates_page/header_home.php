@@ -13,35 +13,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Google Font -->
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- Font awesome -->
-    <link href="<?= base_url('assets/'); ?>css/font-awesome.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <!-- Bootstrap -->
     <link href="<?= base_url('assets/'); ?>css/bootstrap.css" rel="stylesheet">
-    <!-- SmartMenus jQuery Bootstrap Addon CSS -->
-    <link href="<?= base_url('assets/'); ?>css/jquery.smartmenus.bootstrap.css" rel="stylesheet">
-    <!-- Product view slider -->
-    <link href="<?= base_url('assets/'); ?>css/jquery.simpleLens.css" rel="stylesheet" type="text/css">
-    <!-- slick slider -->
-    <link href="<?= base_url('assets/'); ?>css/slick.css" rel="stylesheet" type="text/css">
-    <!-- price picker slider -->
-    <link href="<?= base_url('assets/'); ?>css/nouislider.css" rel="stylesheet" type="text/css">
-    <!-- Theme color -->
-    <link href="<?= base_url('assets/'); ?>css/theme-color/default-theme.css" rel="stylesheet" id="switcher">
-    <!-- Top Slider CSS -->
-    <link href="<?= base_url('assets/'); ?>css/sequence-theme.modern-slide-in.css?v2" rel="stylesheet" media="all">
-    <!-- Main style sheet -->
-    <link href="<?= base_url('assets/'); ?>css/style.css" rel="stylesheet">
-    <link href="<?= base_url('assets/'); ?>produk/css/style.css" rel="stylesheet">
+    <!-- Promo Slider CSS -->
+    <link href="<?= base_url('assets/'); ?>css/sequence-theme.modern-slide-in.css" rel="stylesheet" media="all">
     <!-- My Custom CSS -->
-    <link href="<?= base_url('assets/'); ?>css/home.css" rel="stylesheet">
-
+    <link href="<?= base_url('assets/'); ?>css/custom/product.css" rel="stylesheet">
+    <link href="<?= base_url('assets/'); ?>css/custom/home.css" rel="stylesheet">
+    <link href="<?= base_url('assets/'); ?>css/style.css" rel="stylesheet">
 </head>
 
 <body>
