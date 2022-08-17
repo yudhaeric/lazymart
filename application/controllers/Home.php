@@ -16,7 +16,7 @@ class Home extends CI_Controller
         $data['title'] = 'Lazymart Belanja Bulanan Jadi Mudah';
         $data['produk'] = $this->Produk_model->all();
         $this->load->view('templates_page/header_home', $data);
-        $this->load->view('auth/home', $data);
+        // $this->load->view('page/home', $data);
         $this->load->view('templates_page/footer');
     }
 

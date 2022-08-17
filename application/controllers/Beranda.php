@@ -21,7 +21,7 @@ class Beranda extends CI_Controller
         $data['product'] = $this->Produk_model->get_product()->result();
 
         $this->load->view('templates_page/header', $data);
-        $this->load->view('page/home', $data);
+        $this->load->view('page/beranda', $data);
         $this->load->view('templates_page/footer');
     }
 

@@ -29,7 +29,6 @@
     <link href="<?= base_url('assets/'); ?>css/custom/product.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>css/custom/cart.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>css/custom/home.css" rel="stylesheet">
-    <link href="<?= base_url('assets/'); ?>css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -42,15 +41,15 @@
     <!-- End Loading -->
 
     <!-- Start Header Section -->
-    <header id="aa-header">
+    <header id="header">
         <!-- Start Header Top  -->
-        <div class="aa-header-top">
+        <div class="header-top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="aa-header-top-area">
+                        <div class="header-top-area">
                             <!-- Start Header Top Left -->
-                            <div class="aa-header-top-left">
+                            <div class="header-top-left">
                                 <!-- Start Aplication -->
                                 <div class="aplication hidden-xs">
                                     <p><a href="#"><img src="<?= base_url('assets/'); ?>img/icon/iphone.png">Download Lazymart App</a></p>
@@ -58,7 +57,7 @@
                                 <!-- End Aplication -->
 
                                 <!-- Start Language -->
-                                <div class="aa-language">
+                                <div class="language">
                                     <div class="dropdown">
                                         <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                             <img src="<?= base_url('assets/'); ?>img/flag/indonesia.jpg" alt="indonesia flag">INDONESIA
@@ -74,8 +73,8 @@
                             <!-- End Header Top Left -->
 
                             <!-- Start Header Top Right -->
-                            <div class="aa-header-top-right">
-                                <ul class="aa-head-top-nav-right">
+                            <div class="header-top-right">
+                                <ul class="head-top-nav-right">
                                     <li><a href="#">Tentang Lazymart</a></li>
                                     <li class="hidden-xs"><a href="#">Promo</a></li>
                                     <li class="hidden-xs"><a href="#">Customer Care</a></li>
@@ -90,13 +89,13 @@
         <!-- End Header Top  -->
 
         <!-- Start Header Bottom  -->
-        <div class="aa-header-bottom">
+        <div class="header-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="aa-header-bottom-area">
+                        <div class="header-bottom-area">
                             <!-- Logo  -->
-                            <div class="aa-logo">
+                            <div class="logo">
                                 <!-- Text Based Logo -->
                                 <a href="<?= base_url('beranda'); ?>">
                                     <span><img src="<?= base_url('assets/'); ?>img/icon/logo.svg"></span>
@@ -106,7 +105,7 @@
                             <!-- End logo  -->
 
                             <!-- Start Search Box -->
-                            <div class="aa-search-box-beranda">
+                            <div class="search-box-beranda">
                                 <form action="">
                                     <input class="input-search" type="text" name="" id="" placeholder="Indomie Goreng Jumbo">
                                     <button class="btn-search" type="submit"><span class="fa fa-search"></span></button>
@@ -124,46 +123,46 @@
                             <!-- End Search Box -->
 
                             <!-- Start Navigasi -->
-                            <div class="aa-cartbox">
-                                <a class="aa-cart-link" href="#">
+                            <div class="cartbox">
+                                <a class="cart-link" href="<?= base_url('checkout') ;?>">
                                     <i class="fas fa-shopping-cart"></i>
                                 </a>
-                                <div class="aa-cartbox-summary">
+                                <div class="cartbox-summary">
                                     <?php $keranjang = 'Keranjang ('.$this->cart->total_items().')' ?>
-                                    <p class="aa-cartbox-list"><?= $keranjang ?><a>Lihat Sekarang</a></p>
+                                    <p class="cartbox-list"><?= $keranjang ?><a>Lihat Sekarang</a></p>
                                     <hr>
                                     <ul>
                                         <li>
-                                            <a class="aa-cartbox-img" href="#"><img src="<?= base_url('assets/img/item/beras.png'); ?>" alt="img"></a>
-                                            <div class="aa-cartbox-info">
+                                            <a class="cartbox-img" href="#"><img src="<?= base_url('assets/img/item/beras.png'); ?>" alt="img"></a>
+                                            <div class="cartbox-info">
                                                 <h4>Lumbung Padi Indonesia Beras Putih 5Kg</h4>
                                                 <p>2 Barang</p>
                                                 <p class="price">Rp72.000</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <a class="aa-cartbox-img" href="#"><img src="<?= base_url('assets/img/item/minyak.png'); ?>" alt="img"></a>
-                                            <div class="aa-cartbox-info">
+                                            <a class="cartbox-img" href="#"><img src="<?= base_url('assets/img/item/minyak.png'); ?>" alt="img"></a>
+                                            <div class="cartbox-info">
                                                 <h4>Minyak Goreng Sania Pouch 2 Pack x 2L (Harga + Ongkir)</h4>
                                                 <p>3 Barang</p>
                                                 <p class="price">Rp66.500</p>
                                             </div>
                                         </li>                                        
                                         <li>
-                                            <a class="aa-cartbox-img" href="#"><img src="<?= base_url('assets/img/item/miegoreng.png'); ?>" alt="img"></a>
-                                            <div class="aa-cartbox-info">
+                                            <a class="cartbox-img" href="#"><img src="<?= base_url('assets/img/item/miegoreng.png'); ?>" alt="img"></a>
+                                            <div class="cartbox-info">
                                                 <h4>Indomie - Goreng Special 85G - 1 Karton</h4>
                                                 <p>1 Barang</p>
                                                 <p class="price">Rp120.000</p>
                                             </div>
                                         </li>
                                     </ul>
-                                    <a class="aa-cartbox-checkout" href="<?= base_url('checkout') ;?>">Checkout</a>
+                                    <a class="cartbox-checkout" href="<?= base_url('checkout') ;?>">Checkout</a>
                                 </div>
-                                <a class="aa-wish-link" href="#">
+                                <a class="wish-link" href="#">
                                     <i class="fas fa-heart"></i>
                                 </a>
-                                <a class="aa-notif-link" href="#">
+                                <a class="notif-link" href="#">
                                     <i class="fas fa-bell"></i>
                                 </a>
                             </div>

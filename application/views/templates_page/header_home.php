@@ -27,7 +27,6 @@
     <!-- My Custom CSS -->
     <link href="<?= base_url('assets/'); ?>css/custom/product.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>css/custom/home.css" rel="stylesheet">
-    <link href="<?= base_url('assets/'); ?>css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -40,15 +39,15 @@
     <!-- End Loading -->
 
     <!-- Start Header Section -->
-    <header id="aa-header">
+    <header id="header">
         <!-- Start Header Top  -->
-        <div class="aa-header-top">
+        <div class="header-top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="aa-header-top-area">
+                        <div class="header-top-area">
                             <!-- Start Header Top Left -->
-                            <div class="aa-header-top-left">
+                            <div class="header-top-left">
                                 <!-- Start Aplication -->
                                 <div class="aplication hidden-xs">
                                     <p><a href="#"><img src="<?= base_url('assets/'); ?>img/icon/iphone.png">Download Lazymart App</a></p>
@@ -56,7 +55,7 @@
                                 <!-- End Aplication -->
 
                                 <!-- Start Language -->
-                                <div class="aa-language">
+                                <div class="language">
                                     <div class="dropdown">
                                         <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                             <img src="<?= base_url('assets/'); ?>img/flag/indonesia.jpg" alt="indonesia flag">INDONESIA
@@ -72,8 +71,8 @@
                             <!-- End Header Top Left -->
 
                             <!-- Start Header Top Right -->
-                            <div class="aa-header-top-right">
-                                <ul class="aa-head-top-nav-right">
+                            <div class="header-top-right">
+                                <ul class="head-top-nav-right">
                                     <li><a href="#">Tentang Lazymart</a></li>
                                     <li class="hidden-xs"><a href="#">Promo</a></li>
                                     <li class="hidden-xs"><a href="#">Customer Care</a></li>
@@ -88,13 +87,13 @@
         <!-- End Header Top  -->
 
         <!-- Start Header Bottom  -->
-        <div class="aa-header-bottom">
+        <div class="header-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="aa-header-bottom-area">
+                        <div class="header-bottom-area">
                             <!-- Logo  -->
-                            <div class="aa-logo">
+                            <div class="logo">
                                 <!-- Text Based Logo -->
                                 <a href="<?= base_url(''); ?>">
                                     <span><img src="<?= base_url('assets/'); ?>img/icon/logo.svg"></span>
@@ -104,7 +103,7 @@
                             <!-- End logo  -->
 
                             <!-- Start Search Box -->
-                            <div class="aa-search-box">
+                            <div class="search-box">
                                 <form action="">
                                     <input class="input-search" type="text" name="" id="" placeholder="Indomie Goreng Jumbo">
                                     <button class="btn-search" type="submit"><span class="fa fa-search"></span></button>
@@ -124,8 +123,8 @@
                             <!-- End Search Box -->
 
                             <!-- Start Cart Box -->
-                            <div class="aa-cartbox2">
-                                <a class="aa-cart-link2" href="#">
+                            <div class="cartbox2">
+                                <a class="cart-link2" href="#">
                                     <i class="fas fa-shopping-cart"></i>
                                 </a>
                             </div>
@@ -135,11 +134,11 @@
                         <!-- Start Btn Login & Register -->
                         <div class="pembatas2"></div>
 
-                        <div class="aa-login">
-                            <a class="aa-login-btn" href="<?= base_url('login'); ?>">Masuk</a>
+                        <div class="login">
+                            <a class="login-btn" href="<?= base_url('login'); ?>">Masuk</a>
                         </div>
-                        <div class="aa-register">
-                            <a class="aa-register-btn" href="<?= base_url('register'); ?>">Daftar</a>
+                        <div class="register">
+                            <a class="register-btn" href="<?= base_url('register'); ?>">Daftar</a>
                         </div>
                         <!-- End Btn Login & Register -->
                     </div>
