@@ -94,53 +94,47 @@
                         <div class="header-bottom-area">
                             <!-- Logo  -->
                             <div class="logo">
-                                <!-- Text Based Logo -->
                                 <a href="<?= base_url(''); ?>">
-                                    <span><img src="<?= base_url('assets/'); ?>img/icon/logo.svg"></span>
-                                    <p>lazy<strong>Mart</strong> <span>Belanja Jadi Mudah</span></p>
+                                    <img src="<?= base_url('assets/'); ?>img/lazymart-logo.png">
                                 </a>
                             </div>
                             <!-- End logo  -->
 
                             <!-- Start Search Box -->
                             <div class="search-box">
-                                <form action="">
-                                    <input class="input-search" type="text" name="" id="" placeholder="Indomie Goreng Jumbo">
-                                    <button class="btn-search" type="submit"><span class="fa fa-search"></span></button>
-                                </form>
+                                <input class="input-search" type="text" name="" id="" placeholder="Indomie Goreng Jumbo">
+                                <button class="btn-search" type="submit"><span class="fa fa-search"></span></button>
                                 <!-- Kategory -->
                                 <ul class="navbar-nav">
                                     <li><a href="#">Sabun</span></a></li>
                                     <li><a href="#">Beras</span></a></li>
                                     <li><a href="#">Cemilan</span></a></li>
                                     <li><a href="#">Minuman</span></a></li>
-                                    <li><a href="#">Bumbu Masak</span></a></li>
                                     <li><a href="#">Indomie</span></a></li>
                                     <li><a href="#">Kerupuk</span></a></li>
-                                    <li><a href="#">Ice Cream</span></a></li>
                                 </ul>
                             </div>
                             <!-- End Search Box -->
 
-                            <!-- Start Cart Box -->
-                            <div class="cartbox2">
-                                <a class="cart-link2" href="#">
-                                    <i class="fas fa-shopping-cart"></i>
-                                </a>
+                            <!-- Start Nav Icon -->
+                            <div class="nav-icon">
+                                <div class="cartbox2">
+                                    <a class="cart-link2" href="#">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </a>
+                                </div>
+
+                                <span class="pembatas"></span>
+
+                                <div class="login">
+                                    <a class="login-btn" href="<?= base_url('login'); ?>">Masuk</a>
+                                </div>
+                                <div class="register">
+                                    <a class="register-btn" href="<?= base_url('register'); ?>">Daftar</a>
+                                </div>
                             </div>
+                            <!-- End Nav Icon -->
                         </div>
-                        <!-- End Cart Box -->
-
-                        <!-- Start Btn Login & Register -->
-                        <div class="pembatas2"></div>
-
-                        <div class="login">
-                            <a class="login-btn" href="<?= base_url('login'); ?>">Masuk</a>
-                        </div>
-                        <div class="register">
-                            <a class="register-btn" href="<?= base_url('register'); ?>">Daftar</a>
-                        </div>
-                        <!-- End Btn Login & Register -->
                     </div>
                 </div>
             </div>
