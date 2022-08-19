@@ -19,7 +19,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- Font awesome -->
-    <link href="<?= base_url('assets/'); ?>css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
+    <script src="https://kit.fontawesome.com/d2850b7976.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
     <link href="<?= base_url('assets/'); ?>css/bootstrap.css" rel="stylesheet">
     <!-- Promo Slider CSS -->
@@ -27,6 +28,7 @@
     <!-- My Custom CSS -->
     <link href="<?= base_url('assets/'); ?>css/custom/product.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>css/custom/home.css" rel="stylesheet">
+    <link href="<?= base_url('assets/'); ?>css/custom/responsive.css" rel="stylesheet">
 </head>
 
 <body>
@@ -102,7 +104,7 @@
 
                             <!-- Start Search Box -->
                             <div class="search-box">
-                                <input class="input-search" type="text" name="" id="" placeholder="Indomie Goreng Jumbo">
+                                <input class="input-search" type="text" placeholder="Mau belanja apa...">
                                 <button class="btn-search" type="submit"><span class="fa fa-search"></span></button>
                                 <!-- Kategory -->
                                 <ul class="navbar-nav">
@@ -121,6 +123,12 @@
                                 <div class="cartbox2">
                                     <a class="cart-link2" href="#">
                                         <i class="fas fa-shopping-cart"></i>
+                                    </a>
+                                </div>
+
+                                <div class="user-icon">
+                                    <a class="user-icon-link" href="#">
+                                        <i class="fa-solid fa-user"></i>
                                     </a>
                                 </div>
 
