@@ -33,31 +33,31 @@
 
 <body>
     <!-- Start Loading -->
-    <div id="wpf-loader-two">
+    <!-- <div id="wpf-loader-two">
         <div class="wpf-loader-two-inner">
             <span>Loading</span>
         </div>
-    </div>
+    </div> -->
     <!-- End Loading -->
 
     <!-- Start Header Section -->
-    <header id="header">
+    <!-- <header id="header"> -->
         <!-- Start Header Top  -->
-        <div class="header-top">
+        <!-- <div class="header-top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="header-top-area">
+                        <div class="header-top-area"> -->
                             <!-- Start Header Top Left -->
-                            <div class="header-top-left">
+                            <!-- <div class="header-top-left"> -->
                                 <!-- Start Aplication -->
-                                <div class="aplication hidden-xs">
+                                <!-- <div class="aplication hidden-xs">
                                     <p><a href="#"><img src="<?= base_url('assets/'); ?>img/icon/iphone.png">Download Lazymart App</a></p>
-                                </div>
+                                </div> -->
                                 <!-- End Aplication -->
 
                                 <!-- Start Language -->
-                                <div class="language">
+                                <!-- <div class="language">
                                     <div class="dropdown">
                                         <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                             <img src="<?= base_url('assets/'); ?>img/flag/indonesia.jpg" alt="indonesia flag">INDONESIA
@@ -67,19 +67,19 @@
                                             <li><a href="#"><img src="<?= base_url('assets/'); ?>img/flag/english.jpg" alt="">ENGLISH</a></li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- End Language -->
                             </div>
                             <!-- End Header Top Left -->
 
                             <!-- Start Header Top Right -->
-                            <div class="header-top-right">
+                            <!-- <div class="header-top-right">
                                 <ul class="head-top-nav-right">
                                     <li><a href="#">Tentang Lazymart</a></li>
                                     <li class="hidden-xs"><a href="#">Promo</a></li>
                                     <li class="hidden-xs"><a href="#">Customer Care</a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- End Header Top Right -->
                         </div>
                     </div>
@@ -89,25 +89,25 @@
         <!-- End Header Top  -->
 
         <!-- Start Header Bottom  -->
-        <div class="header-bottom">
+        <!-- <div class="header-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="header-bottom-area">
+                        <div class="header-bottom-area"> -->
                             <!-- Logo  -->
-                            <div class="logo">
+                            <!-- <div class="logo">
                                 <a href="<?= base_url(''); ?>">
                                     <img src="<?= base_url('assets/'); ?>img/lazymart-logo.png">
                                 </a>
-                            </div>
+                            </div> -->
                             <!-- End logo  -->
 
                             <!-- Start Search Box -->
-                            <div class="search-box">
+                            <!-- <div class="search-box">
                                 <input class="input-search" type="text" placeholder="Mau belanja apa...">
-                                <button class="btn-search" type="submit"><span class="fa fa-search"></span></button>
+                                <button class="btn-search" type="submit"><span class="fa fa-search"></span></button> -->
                                 <!-- Kategory -->
-                                <ul class="navbar-nav">
+                                <!-- <ul class="navbar-nav">
                                     <li><a href="#">Sabun</span></a></li>
                                     <li><a href="#">Beras</span></a></li>
                                     <li><a href="#">Cemilan</span></a></li>
@@ -115,11 +115,11 @@
                                     <li><a href="#">Indomie</span></a></li>
                                     <li><a href="#">Kerupuk</span></a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- End Search Box -->
 
                             <!-- Start Nav Icon -->
-                            <div class="nav-icon">
+                            <!-- <div class="nav-icon">
                                 <div class="cartbox2">
                                     <a class="cart-link2" href="#">
                                         <i class="fas fa-shopping-cart"></i>
@@ -140,7 +140,7 @@
                                 <div class="register">
                                     <a class="register-btn" href="<?= base_url('register'); ?>">Daftar</a>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- End Nav Icon -->
                         </div>
                     </div>
