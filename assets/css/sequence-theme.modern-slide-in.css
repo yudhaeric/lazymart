@@ -23,15 +23,15 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen:700|Source+Sans+Pro:300);
 
 .seq {
-  position: relative;
-  background-position: 0% 100%;
-  background-size: cover;
-  height: 360px;
+  height: auto;
   width: 85%;
-  max-width: 100%;
   overflow: hidden;
   margin: 0 auto;
   padding: 0;
+  /* position: relative; */
+  /* max-width: 100%; */
+  background-position: 0% 100%;
+  background-size: cover;
 }
 
 .seq .seq-preloader {
@@ -98,7 +98,7 @@
 
 .seq .seq-nav {
   position: absolute;
-  z-index: 999;
+  z-index: 9;
   top: 50%;
   width: 100%;
   max-width: 100%;
@@ -112,7 +112,7 @@
 .seq .seq-prev {
   color: #fff;
   position: absolute;
-  top: -166px;
+  bottom: 100px;
   padding: 10px 15px;
   line-height: 45px;
   border: 1px solid transparent;

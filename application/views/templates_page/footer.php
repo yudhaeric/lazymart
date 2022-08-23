@@ -1,5 +1,5 @@
     <!-- Start Footer -->
-    <!-- <footer class="footer-area" id="scroll-footer">
+    <footer class="footer-area" id="scroll-footer">
         <div class="container">
             <div class="row layanan">
                 <div class="col-lg-2 col-md-6 bantuan">
@@ -54,7 +54,7 @@
             <div class="container">
                 <p>Copyright &copy 2021 Lazymart All Right Reserved</p>
             </div>
-        </div> -->
+        </div>
     </footer>
     <!-- End Footer -->
 

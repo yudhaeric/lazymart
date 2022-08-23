@@ -284,7 +284,7 @@ img {
 	grid-template-columns: 20fr auto;
 	grid-template-rows: auto;
 	width: 100%;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 }
 
 #header .header-bottom .header-bottom-area .search-box input[type="text"] {
@@ -358,7 +358,7 @@ img {
 }
 
 .header-bottom .nav-icon .cartbox2 .cart-link2:hover {
-	background-color: #131313;
+	/* background-color: #131313; */
 	opacity: 0.8;
 }
 
@@ -799,8 +799,6 @@ img {
 	SLIDER SECTION
 ====================*/
 #slider {
-	/* max-width: 100%;
-	height: auto; */
 	padding-top: 120px;
 	z-index: 1;
 }
@@ -873,7 +871,6 @@ img {
 	width: 160px;
 	border-radius: 15px;
 	border: 1px solid #cecece;
-	border-radius: 15px;
 }
 
 /*==================

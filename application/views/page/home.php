@@ -3,35 +3,51 @@
   <!-- ---------------------------- -->
   
   <!-- Start Scroll Top -->
-  <!-- <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a> -->
+  <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
   <!-- End Scroll Top -->
 
   <!-- Start Slider -->
   <section id="slider">
-      <!-- <div id="sequence" class="seq">
-        <div class="seq-screen">
-          <ul class="seq-canvas"> -->
+      <div id="sequence" class="seq">
+        <!-- <div class="seq-screen"> -->
+          <ul class="seq-canvas">
             <!-- Image Slider 1 -->
-            <!-- <li>
+            <li>
               <div class="seq-model">
-                <img data-seq src="<?= base_url('assets/'); ?>img/slider/1.jpg" alt="Belanja Bulanan Meriah" />
+                <picture>
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-428.jpg" media="(max-width: 600px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-414.jpg" media="(max-width: 428px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-390.jpg" media="(max-width: 414px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-375.jpg" media="(max-width: 390px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-360.jpg" media="(max-width: 375px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-320.jpg" media="(max-width: 360px)">
+                  <img data-seq srcset="<?= base_url('assets/'); ?>img/slider/slider-desktop.jpg" alt="Belanja Bulanan Meriah" />
+                </picture>
               </div>
-            </li> -->
+            </li>
             <!-- Image Slider 2 -->
-            <!-- <li>
+            <li>
               <div class="seq-model">
-                <img data-seq src="<?= base_url('assets/'); ?>img/slider/2.png" alt="Gratis Ongkir" />
+                <picture>
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-428.jpg" media="(max-width: 600px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-414.jpg" media="(max-width: 428px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-390.jpg" media="(max-width: 414px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-375.jpg" media="(max-width: 390px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-360.jpg" media="(max-width: 375px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-320.jpg" media="(max-width: 360px)">
+                  <img data-seq srcset="<?= base_url('assets/'); ?>img/slider/slider2-desktop.png" alt="Gratis Ongkir" />
+                </picture>
               </div>
             </li>
           </ul>
-        </div> -->
+        <!-- </div> -->
         <!-- Slider Navigation Btn Next / Prev -->
-        <!-- <fieldset class="seq-nav" aria-controls="sequence" aria-label="Slider buttons">
+        <div class="seq-nav" aria-controls="sequence" aria-label="Slider buttons">
           <a type="button" class="seq-prev" aria-label="Previous"><span class="fa fa-angle-left"></span></a>
           <a type="button" class="seq-next" aria-label="Next"><span class="fa fa-angle-right"></span></a>
-        </fieldset>
+        </div>
       </div>
-  </section> -->
+  </section>
   <!-- End Slider -->
 
   <!-- Start Category Section -->
@@ -53,22 +69,22 @@
   <!-- End Category Section -->
 
   <!-- Start Pembatas Section -->
-  <!-- <div class="pembatas-section"></div> -->
+  <div class="pembatas-section"></div>
   <!-- End Pembatas Section -->
 
   <!-- Start Category Section -->
-  <!-- <section id="populer">
+  <section id="populer">
     <div class="container">
         <div class="col-md-12">
-          <div class="row"> -->
+          <div class="row">
             <!-- Start Category Navigation -->
-            <!-- <ul class="judul-menu">
+            <ul class="judul-menu">
               <li class="heading2"><a href="#">Populer</a></li>
               <li class="subheading2"><a href="#">Lihat Semua <i class="fas fa-chevron-right fa-xs"></i></a></li>
-            </ul> -->
+            </ul>
 
             <!-- Start Category -->
-            <!-- <?php foreach ($produk as $item) : ?>
+            <?php foreach ($produk as $item) : ?>
               <div class="card card-populer">
                 <a href="#">
                   <img class="card-img" src="<?= base_url('assets/img/item/') . $item->image; ?>" class="card-img-top" alt="...">
@@ -102,11 +118,11 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <!-- End Category Section -->
 
   <!-- Start Pembatas Section -->
-  <!-- <div class="pembatas-section2"></div> -->
+  <div class="pembatas-section2"></div>
   <!-- End Pembatas Section -->
 
   <!-- Login Modal -->
