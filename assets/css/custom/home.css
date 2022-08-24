@@ -284,7 +284,7 @@ img {
 	grid-template-columns: 20fr auto;
 	grid-template-rows: auto;
 	width: 100%;
-	/* margin-left: 20px; */
+	margin-left: 20px;
 }
 
 #header .header-bottom .header-bottom-area .search-box input[type="text"] {
@@ -799,7 +799,7 @@ img {
 	SLIDER SECTION
 ====================*/
 #slider {
-	padding-top: 120px;
+	padding-top: 130px;
 	z-index: 1;
 }
 
@@ -827,9 +827,10 @@ img {
 	KATEGORI SECTION
 ====================*/
 #product {
-	width: 80%;
+	width: 85%;
 	height: 275px;
-	padding: 0 40px;
+	margin: 30px auto;
+	padding: 0 20px;
 	border-radius: 20px;
 	background-color: #fff;
 	box-shadow: 5px 5px 5px 0 #cecece, -1px -1px 3px 0 #cecece;
@@ -877,8 +878,7 @@ img {
 	PEMBATAS SECTION
 ====================*/
 .pembatas-section {
-	margin-left: 110px;
-	margin-top: 36px;
+	margin: auto;
 	width: 1130px;
 	height: 1px;
 	background-color: #cecece;
@@ -888,11 +888,9 @@ img {
 	POPULER SECTION
 ====================*/
 #populer {
-	display: inline;
-	/* float: left; */
-	margin-left: 100px;
-	position: absolute;
-	top: 757px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
 	background-color: #fff;
 }
 
@@ -1051,12 +1049,10 @@ img {
 	PEMBATAS SECTION
 ====================*/
 .pembatas-section2 {
-	margin-left: 110px;
-	margin-top: 447px;
+	margin: auto;
 	width: 1130px;
 	height: 1px;
 	background-color: #cecece;
-	margin-bottom: 30px;
 }
 
 /*------------------------------------------------------------------
@@ -1064,6 +1060,7 @@ img {
 -------------------------------------------------------------------*/
 .footer-area {
 	width: 1349px;
+	margin-top: 30px;
 	background-color: #0091ff;
 }
 

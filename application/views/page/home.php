@@ -74,50 +74,41 @@
 
   <!-- Start Category Section -->
   <section id="populer">
-    <div class="container">
-        <div class="col-md-12">
-          <div class="row">
-            <!-- Start Category Navigation -->
-            <ul class="judul-menu">
-              <li class="heading2"><a href="#">Populer</a></li>
-              <li class="subheading2"><a href="#">Lihat Semua <i class="fas fa-chevron-right fa-xs"></i></a></li>
-            </ul>
-
-            <!-- Start Category -->
-            <?php foreach ($produk as $item) : ?>
-              <div class="card card-populer">
-                <a href="#">
-                  <img class="card-img" src="<?= base_url('assets/img/item/') . $item->image; ?>" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <p class="card-name"><?= $item->name; ?></p>
-                      <p class="card-price">Rp <?= $item->price; ?></p>
-                      <div class="card-disc">
-                        <div class="card-disc-percent">
-                            <p class="card-disc-percent2"><?= $item->disc; ?></p>
-                        </div>
-                        <p class="card-disc-price">Rp <?= $item->disc2; ?></p>
-                      </div>
-                      <div class="card-rating">
-                          <img class="card-rating-star" src="<?= base_url('assets/');?>img/icon/star-fill.png" alt="">
-                          <img class="card-rating-star" src="<?= base_url('assets/');?>img/icon/star-fill.png" alt="">
-                          <img class="card-rating-star" src="<?= base_url('assets/');?>img/icon/star-fill.png" alt="">
-                          <img class="card-rating-star" src="<?= base_url('assets/');?>img/icon/star-fill.png" alt="">
-                          <img class="card-rating-star" src="<?= base_url('assets/');?>img/icon/star-fill.png" alt="">
-                          <p class="card-rating-sold">|  <?= $item->rating; ?> Terjual</p>
-                      </div>
-                      <div class="card-button">
-                        <button type="submit" class="card-button-wishlist" name="addWish"><i class="fas fa-heart"></i></button>
-                        <button type="submit" class="card-button-addcart" name="addCart"><i class="fas fa-shopping-cart"></i></button>
-                        <input type="hidden" name="product_id" value="<?= $item->id; ?>">
-                      </div>
-                  </div>
-                </a>
+    <ul class="judul-menu">
+      <li class="heading2"><a href="#">Populer</a></li>
+      <li class="subheading2"><a href="#">Lihat Semua <i class="fas fa-chevron-right fa-xs"></i></a></li>
+    </ul>
+    <!-- Start Category -->
+    <?php foreach ($produk as $item) : ?>
+      <div class="card card-populer">
+        <a href="#">
+          <img class="card-img" src="<?= base_url('assets/img/item/') . $item->image; ?>" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-name"><?= $item->name; ?></p>
+              <p class="card-price">Rp <?= $item->price; ?></p>
+              <div class="card-disc">
+                <div class="card-disc-percent">
+                    <p class="card-disc-percent2"><?= $item->disc; ?></p>
+                </div>
+                <p class="card-disc-price">Rp <?= $item->disc2; ?></p>
               </div>
-            <?php endforeach; ?>
+              <div class="card-rating">
+                  <img class="card-rating-star" src="<?= base_url('assets/');?>img/icon/star-fill.png" alt="">
+                  <img class="card-rating-star" src="<?= base_url('assets/');?>img/icon/star-fill.png" alt="">
+                  <img class="card-rating-star" src="<?= base_url('assets/');?>img/icon/star-fill.png" alt="">
+                  <img class="card-rating-star" src="<?= base_url('assets/');?>img/icon/star-fill.png" alt="">
+                  <img class="card-rating-star" src="<?= base_url('assets/');?>img/icon/star-fill.png" alt="">
+                  <p class="card-rating-sold">|  <?= $item->rating; ?> Terjual</p>
+              </div>
+              <div class="card-button">
+                <button type="submit" class="card-button-wishlist" name="addWish"><i class="fas fa-heart"></i></button>
+                <button type="submit" class="card-button-addcart" name="addCart"><i class="fas fa-shopping-cart"></i></button>
+                <input type="hidden" name="product_id" value="<?= $item->id; ?>">
+              </div>
           </div>
-        </div>
+        </a>
       </div>
-    </div>
+    <?php endforeach; ?>
   </section>
   <!-- End Category Section -->
 
