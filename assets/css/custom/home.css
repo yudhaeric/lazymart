@@ -755,7 +755,6 @@ img {
 	display: block;
 }
 
-
 /*------------------------------------------------------------------
     Content
 -------------------------------------------------------------------*/
@@ -828,7 +827,6 @@ img {
 ====================*/
 #product {
 	width: 85%;
-	height: 275px;
 	margin: 30px auto;
 	padding: 0 20px;
 	border-radius: 20px;
@@ -841,7 +839,7 @@ img {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0 10px 20px 10px;
+	margin: 0 10px 0 10px;
 }
 
 #product .judul-menu .heading {
@@ -864,7 +862,7 @@ img {
 	display: flex;
 	flex-wrap: wrap	;
 	justify-content: space-around;
-	align-items: center;
+	padding: 10px 0 20px 0;
 }
 
 #product .product-catg img {
@@ -879,7 +877,7 @@ img {
 ====================*/
 .pembatas-section {
 	margin: auto;
-	width: 1130px;
+	width: 85%;
 	height: 1px;
 	background-color: #cecece;
 }
@@ -888,9 +886,8 @@ img {
 	POPULER SECTION
 ====================*/
 #populer {
-	margin: auto;
-	display: flex;
-	justify-content: center;
+	width: 85%;
+	margin: 0 auto;
 	background-color: #fff;
 }
 
@@ -931,50 +928,59 @@ img {
 	color: #0091ff;
 }
 
+.kategori {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
 .card-populer {
-	float: left;
+	font-family: 'Roboto';
+	width: 180px;
+	margin: 10px 11px 0 0;
 	overflow: hidden;
-	margin-right: 14px;
-	height: 342px;
-	width: 175.5px;
-	margin-top: 20px;
-	border: 1px solid #cecece;
+	text-decoration: none;
+	box-shadow: 2px 3px 5px 0 #cecece, 0 0 1px 0 #cecece;
 	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.card-populer a:hover {
+	color: #131313;
 }
 
 .card-populer .card-img {
 	border-radius: 15px 15px 0 0;
 }
 
-.card-populer .card-body {
-	font-family: 'Roboto';
-}
-
-.card-populer .card-body .card-name {
+.card-populer .card-name {
 	font-size: 12px;
 	font-weight: 400;
 	padding: 0 7px;
 }
 
-.card-populer .card-body .card-price {
+.card-populer .card-price {
 	font-size: 14px;
 	font-weight: 700;
-	margin-top: -5px;
 	padding: 0 7px;
 }
 
-.card-populer .card-body .card-disc {
-	margin-top: -6px;
+.card-populer .card-disc {
 	padding: 0 7px;
+	display: flex;
 }
 
-.card-populer .card-body .card-disc-percent {
+.card-populer .card-disc-percent {
 	width: 23px;
 	height: 17px;
+	margin-right: 3px;
 	background-color: rgba(236, 53, 53, 0.22);
 }
 
-.card-populer .card-body .card-disc .card-disc-percent2 {
+.card-populer .card-disc .card-disc-percent2 {
 	font-size: 10px;
 	font-weight: bold;
 	color: #EC3535;
@@ -982,66 +988,55 @@ img {
 	text-align: center;
 }
 
-.card-populer .card-body .card-disc-price {
-	margin-top: -15px;
-	margin-left: 30px;
+.card-populer .card-disc-price {
 	font-size: 11px;
 	color: #cecece;
 	text-decoration: line-through;
 }
 
-.card-populer .card-body .card-rating {
-	margin: -6px 0 12px 0;
+.card-populer .card-rating {
 	padding: 0 7px;
+	display: flex;
 }
 
-.card-populer .card-body .card-rating-star {
+.card-populer .card-rating-star {
 	width: 12.10px;
 	height: 12px;
-	display: inline;
+	margin-right: 2px;
 }
 
-.card-populer .card-body .card-rating-sold {
-	margin-top: -17px;
-	margin-left: 85px;
+.card-populer .card-rating-sold {
+	color: #131313;
 	font-size: 10px;
 	font-weight: 500;
-	color: #000;
 }
 
-.card-populer .card-body .card-button {
-	margin-top: 10px;
+.card-populer .card-button {
+	margin-bottom: 0;
+	display: grid;
+	grid-template-columns: auto auto;
+	height: 30px;
 }
 
-.card-populer .card-body .card-button-wishlist {
-	display: block;
+.card-populer .card-button-wishlist {
 	color: #fff;
 	background-color: #ff8590;
 	border: none;
 	font-size: 15px;
-	width: 90px;
-	height: 35px;
 }
 
-.card-populer .card-body .card-button-wishlist:hover {
-	color: #fff;
+.card-populer .card-button-wishlist:hover {
 	background-color: #fb717d;
 }
 
-.card-populer .card-body .card-button-addcart {
-	display: block;
+.card-populer .card-button-addcart {
 	color: #fff;
 	background-color: #94ebcb;
 	border: none;
 	font-size: 15px;
-	width: 90px;
-	height: 35px;
-	margin-top: -35px;
-	margin-left: 85px;
 }
 
-.card-populer .card-body .card-button-addcart:hover {
-	color: #fff;
+.card-populer .card-button-addcart:hover {
 	background-color: #7ae9c0;
 }
 
@@ -1049,8 +1044,8 @@ img {
 	PEMBATAS SECTION
 ====================*/
 .pembatas-section2 {
-	margin: auto;
-	width: 1130px;
+	margin: 30px auto;
+	width: 85%;
 	height: 1px;
 	background-color: #cecece;
 }
