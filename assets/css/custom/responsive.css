@@ -6,6 +6,9 @@
     }
     
     /* Style Responsive For Header */
+    #header {
+        position: absolute;
+    }
 
     #header .header-top,
     #header .header-bottom .header-bottom-area .logo,
@@ -95,6 +98,10 @@
         width: 40px;
     }
 
+    .scrollToTop {
+        display: none;
+    }
+
     /* Style Responsive For Slider */
 
     #slider {
@@ -102,7 +109,19 @@
     }
 
     .seq {
+        all: initial;
         width: 100%;
+    }
+
+    .seq .seq-screen,
+    .seq .seq-canvas,
+    .seq .seq-canvas>* {
+        all: initial;
+        margin-top: 10px;
+        padding: 0;
+        /* height: 300px; */
+        width: 100%;
+        list-style: none;
     }
 
     .seq .seq-next,
@@ -120,7 +139,7 @@
     #product {
         /* all: initial; */
         width: 100%;
-        height: 100px;
+        /* height: 100px; */
         padding: none;
         box-shadow: none;
         border-radius: 0;
@@ -145,13 +164,13 @@
         font-size: 8px;
     }
 
-    #product .judul-menu .subheading a:hover {
+    /* #product .judul-menu .subheading a:hover {
 
     }
 
     #product .product-catg {
 
-    }
+    } */
 
     #product .product-catg img {
         width: 60px;
@@ -172,7 +191,132 @@
         display: none;
     }
 
+    /* ==================
+        Garis Pembatas 1
+    ===================== */
+
     .pembatas-section {
+        display: none;
+    }
+
+    /* ==================
+        Populer Items
+    ===================== */
+
+    #populer {
+        width: 100%;
+        padding-bottom: 20px;
+        background-color: #fff;
+    }
+
+    .judul-menu .heading2 a {
+        font-size: 18px;
+    }
+
+    .judul-menu .subheading2 a {
+        font-size: 14px;
+    }
+
+    .card-populer {
+        width: 30%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .card-populer a {
+        padding-bottom: 20px;
+    }
+
+    .card-populer .card-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 10px 10px 0 0;
+        -webkit-border-radius: 10px 10px 0 0;
+        -moz-border-radius: 10px 10px 0 0;
+        -ms-border-radius: 10px 10px 0 0;
+        -o-border-radius: 10px 10px 0 0;
+    }
+    
+    .card-populer .card-name {
+        font-size: 8px;
+    }
+    
+    .card-populer .card-price {
+        font-size: 8px;
+        margin-top: -5px;
+    }
+    
+    .card-populer .card-disc {
+        margin-top: -5px;
+    }
+    
+    .card-populer .card-disc-percent {
+        width: 18px;
+        height: 12px;
+        margin-right: 3px;
+    }
+    
+    .card-populer .card-disc .card-disc-percent2 {
+        font-size: 6px;
+        padding-top: 1.5px;
+        text-align: center;
+    }
+    
+    .card-populer .card-disc-price {
+        font-size: 6px;
+        padding-top: 2px;
+    }
+    
+    /* .card-populer .card-rating {
+        padding: 0 7px;
+        display: flex;
+    } */
+    
+    .card-populer .card-rating-star {
+        width: 6.10px;
+        height: 6px;
+        /* margin-right: 2px; */
+    }
+    
+    .card-populer .card-rating-sold {
+        /* color: #131313; */
+        font-size: 6px;
+        /* font-weight: 500; */
+    }
+    
+    .card-populer .card-button {
+        display: none;
+    }
+
+    /* ==================
+        Garis Pembatas 2
+    ===================== */
+
+    .pembatas-section2 {
+        display: none;
+    }
+    
+    /* ==================
+        Button Lainnya
+    ===================== */
+
+    .btn-lainnya button {
+        display: block;
+        width: 85%;
+        text-align: center;
+        font-size: 10px;
+        font-family: 'Open Sans', sans-serif;
+        color: #0091FF;
+        background-color: #fff;
+        border: 1px solid #0091FF;
+        margin: 20px auto 50px;
+        padding: 10px 0;
+    }
+
+    .footer-area {
         display: none;
     }
 }

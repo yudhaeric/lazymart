@@ -72,7 +72,7 @@
   <div class="pembatas-section"></div>
   <!-- End Pembatas Section -->
 
-  <!-- Start Category Section -->
+  <!-- Start Populer Section -->
   <section id="populer">
     <ul class="judul-menu">
       <li class="heading2"><a href="#">Populer</a></li>
@@ -104,16 +104,20 @@
               <button type="submit" class="card-button-addcart" name="addCart"><i class="fas fa-shopping-cart"></i></button>
               <input type="hidden" name="product_id" value="<?= $item->id; ?>">
             </div>
-          </a>
+          </a>                                                                                                                                                                          
         </div>
       <?php endforeach; ?>
     </div>
   </section>
-  <!-- End Category Section -->
+  <!-- End Populer Section -->
 
   <!-- Start Pembatas Section -->
   <div class="pembatas-section2"></div>
   <!-- End Pembatas Section -->
+
+  <div class="btn-lainnya">
+    <button>Lihat Lainnya</button>
+  </div>
 
   <!-- Login Modal -->
   <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

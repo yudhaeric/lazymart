@@ -838,19 +838,16 @@ img {
 #product .judul-menu {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 	margin: 0 10px 0 10px;
+	font-family: "Kanit", sans-serif;
 }
 
 #product .judul-menu .heading {
-	font-family: "Kanit", sans-serif;
 	font-size: 24px;
 }
 
 #product .judul-menu .subheading a {
 	border: none;
-	background-color: inherit;
-	font-family: "Kanit", sans-serif;
 	font-size: 16px;
 }
 
@@ -862,7 +859,8 @@ img {
 	display: flex;
 	flex-wrap: wrap	;
 	justify-content: space-around;
-	padding: 10px 0 20px 0;
+	align-content: flex-start;
+	padding: 20px 0 20px 0;
 }
 
 #product .product-catg img {
@@ -891,11 +889,15 @@ img {
 	background-color: #fff;
 }
 
+.judul-menu {
+	display: flex;
+}
+
 .judul-menu li {
 	border: none;
-	float: none;
 	display: inline-block;
 	padding-top: 21px;
+	font-family: "Kanit", sans-serif;
 }
 
 .judul-menu .heading2 {
@@ -904,8 +906,6 @@ img {
 
 .judul-menu .heading2 a {
 	border: none;
-	background-color: inherit;
-	font-family: "Kanit", sans-serif;
 	font-size: 24px;
 }
 
@@ -914,13 +914,12 @@ img {
 }
 
 .judul-menu .subheading2 {
-	padding-left: 910px;
+	padding-right: 10px;
+	margin-left: auto;
 }
 
 .judul-menu .subheading2 a {
 	border: none;
-	background-color: inherit;
-	font-family: "Kanit", sans-serif;
 	font-size: 16px;
 }
 
@@ -931,15 +930,18 @@ img {
 .kategori {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: space-evenly;
+	align-content: flex-start;
 }
 
 .card-populer {
 	font-family: 'Roboto';
-	width: 180px;
+	/* width: 165px; */
+	width: 15%;
 	margin: 10px 11px 0 0;
 	overflow: hidden;
 	text-decoration: none;
+	background-color: #fff;
 	box-shadow: 2px 3px 5px 0 #cecece, 0 0 1px 0 #cecece;
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
@@ -1042,12 +1044,19 @@ img {
 
 /*==================
 	PEMBATAS SECTION
-====================*/
+==================== */
 .pembatas-section2 {
 	margin: 30px auto;
 	width: 85%;
 	height: 1px;
 	background-color: #cecece;
+}
+
+/* ======================================
+	BUTTON LIHAT LAINNYA DI MOBILE DEVICE 
+========================================= */
+.btn-lainnya button {
+	display: none;
 }
 
 /*------------------------------------------------------------------
