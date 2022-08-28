@@ -827,10 +827,10 @@ img {
 ====================*/
 #product {
 	width: 85%;
+	background-color: #fff;
 	margin: 30px auto;
 	padding: 0 20px;
 	border-radius: 20px;
-	background-color: #fff;
 	box-shadow: 5px 5px 5px 0 #cecece, -1px -1px 3px 0 #cecece;
 	-webkit-box-shadow: 5px 5px 5px 0 #cecece, -1px -1px 3px 0 #cecece;
 }
@@ -857,7 +857,7 @@ img {
 
 #product .product-catg {
 	display: flex;
-	flex-wrap: wrap	;
+	/* flex-wrap: wrap; */
 	justify-content: space-around;
 	align-content: flex-start;
 	padding: 20px 0 20px 0;

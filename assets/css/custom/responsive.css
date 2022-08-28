@@ -109,7 +109,7 @@
     }
 
     .seq {
-        all: initial;
+        /* all: initial; */
         width: 100%;
     }
 
@@ -119,7 +119,7 @@
         all: initial;
         margin-top: 10px;
         padding: 0;
-        /* height: 300px; */
+        height: 300px;
         width: 100%;
         list-style: none;
     }
@@ -137,17 +137,18 @@
     /* Style Responsive For Kategori Pilihan */
 
     #product {
-        /* all: initial; */
-        width: 100%;
-        /* height: 100px; */
-        padding: none;
-        box-shadow: none;
+        /*all: initial;
+        */width: 100%;
+        background-color: #fff;
+        margin: 45% 0 10px;
+        padding: 0;
         border-radius: 0;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         -ms-border-radius: 0;
         -o-border-radius: 0;
-    }
+        box-shadow: none;
+}
 
     #product .judul-menu {
         margin: 0 5px 0 5px;
@@ -156,37 +157,34 @@
     #product .judul-menu .heading {
         text-transform: uppercase;
         color: #0091FF;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #product .judul-menu .subheading a {
         color: #B7B7B7;
-        font-size: 8px;
+        font-size: 12px;
     }
 
     /* #product .judul-menu .subheading a:hover {
 
-    }
+    } */
 
     #product .product-catg {
 
-    } */
+    }
 
     #product .product-catg img {
         width: 60px;
         height: 70px;
-        padding: 10px;
+        /* padding: 10px; */
+        margin-left: 10px;
         border-radius: 0;
-        border: 0;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         -ms-border-radius: 0;
         -o-border-radius: 0;
     }
 
-    #product .product-catg img:nth-child(3),
-    #product .product-catg img:nth-child(4),
-    #product .product-catg img:nth-child(5),
     #product .product-catg img:nth-child(6) {
         display: none;
     }
@@ -210,11 +208,14 @@
     }
 
     .judul-menu .heading2 a {
-        font-size: 18px;
+        text-transform: uppercase;
+        color: #0091FF;
+        font-size: 14px;
     }
 
     .judul-menu .subheading2 a {
-        font-size: 14px;
+        color: #B7B7B7;
+        font-size: 12px;
     }
 
     .card-populer {

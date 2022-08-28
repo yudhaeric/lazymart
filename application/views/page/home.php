@@ -9,7 +9,7 @@
   <!-- Start Slider -->
   <section id="slider">
       <div id="sequence" class="seq">
-        <!-- <div class="seq-screen"> -->
+        <div class="seq-screen">
           <ul class="seq-canvas">
             <!-- Image Slider 1 -->
             <li>
@@ -40,7 +40,7 @@
               </div>
             </li>
           </ul>
-        <!-- </div> -->
+        </div>
         <!-- Slider Navigation Btn Next / Prev -->
         <div class="seq-nav" aria-controls="sequence" aria-label="Slider buttons">
           <a type="button" class="seq-prev" aria-label="Previous"><span class="fa fa-angle-left"></span></a>

@@ -160,8 +160,8 @@
 }
 
 .seq .seq-model {
-  bottom: 15%;
-  height: 100%;
+  /* bottom: 15%; */
+  /* height: 100%; */
   width: 100%;
   max-height: 100%;
   border-radius: 10px;
@@ -245,6 +245,8 @@
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
 }
 
 @media only screen and (min-width: 640px) {
@@ -252,8 +254,8 @@
     position: relative;
     height: auto;
     height: auto;
-    /* max-height: 100%;
-    min-height: 360px; */
+    /* max-height: 100%; */
+    /* min-height: 360px; */
     background-position: 50% 100%;
   }
 
@@ -265,7 +267,7 @@
   }
 
   .seq .seq-screen {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     right: 0;
@@ -356,7 +358,7 @@
   .seq .seq-pagination {
     pointer-events: none;
     display: block;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     right: 0;
     z-index: 10;
