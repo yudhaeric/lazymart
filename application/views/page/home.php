@@ -15,13 +15,13 @@
             <li>
               <div class="seq-model">
                 <picture>
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-428.jpg" media="(max-width: 600px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-414.jpg" media="(max-width: 428px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-390.jpg" media="(max-width: 414px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-375.jpg" media="(max-width: 390px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-360.jpg" media="(max-width: 375px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider1-320.jpg" media="(max-width: 360px)">
-                  <img data-seq srcset="<?= base_url('assets/'); ?>img/slider/slider-desktop.jpg" alt="Belanja Bulanan Meriah" />
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 600px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 428px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 414px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 390px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 375px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 360px)">
+                  <img data-seq src="<?= base_url('assets/'); ?>img/slider/onedesktop.jpg" alt="Belanja Bulanan Meriah" />
                 </picture>
               </div>
             </li>
@@ -29,13 +29,13 @@
             <li>
               <div class="seq-model">
                 <picture>
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-428.jpg" media="(max-width: 600px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-414.jpg" media="(max-width: 428px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-390.jpg" media="(max-width: 414px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-375.jpg" media="(max-width: 390px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-360.jpg" media="(max-width: 375px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slider2-320.jpg" media="(max-width: 360px)">
-                  <img data-seq srcset="<?= base_url('assets/'); ?>img/slider/slider2-desktop.png" alt="Gratis Ongkir" />
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 600px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 428px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 414px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 390px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 375px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 360px)">
+                  <img data-seq src="<?= base_url('assets/'); ?>img/slider/twodesktop.png" alt="Gratis Ongkir" />
                 </picture>
               </div>
             </li>
