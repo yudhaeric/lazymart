@@ -15,7 +15,11 @@
     #header .header-bottom .header-bottom-area .search-box .navbar-nav,
     #header .header-bottom .header-bottom-area .nav-icon .pembatas,
     #header .header-bottom .header-bottom-area .nav-icon .login,
-    #header .header-bottom .header-bottom-area .nav-icon .register {
+    #header .header-bottom .header-bottom-area .nav-icon .register,
+    #header .header-bottom .header-bottom-area .nav-icon .cartbox .cartbox-summary,
+    #header .header-bottom .header-bottom-area .nav-icon .wish-icon, 
+    #header .header-bottom .header-bottom-area .nav-icon .notif-icon,
+    #header .header-bottom .header-bottom-area .nav-icon .profile {
         display: none;
     }
 
@@ -81,6 +85,11 @@
         all: initial;
         margin-top: 8px;
         display: flex;
+    }
+
+    .header-bottom .nav-icon .cartbox .cart-link {
+        margin-left: 10px;
+        color: white;
     }
 
     .header-bottom .nav-icon .cartbox2 .cart-link2 i {

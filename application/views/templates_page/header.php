@@ -13,22 +13,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Google Font -->
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- Font awesome -->
-    <link href="<?= base_url('assets/'); ?>css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
+    <script src="https://kit.fontawesome.com/d2850b7976.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
     <link href="<?= base_url('assets/'); ?>css/bootstrap.css" rel="stylesheet">
     <!-- Promo Slider CSS -->
-    <link href="<?= base_url('assets/'); ?>css/sequence-theme.modern-slide-in.css?v2" rel="stylesheet" media="all">
+    <link href="<?= base_url('assets/'); ?>css/sequence-theme.modern-slide-in.css" rel="stylesheet" media="all">
     <!-- My Custom CSS -->
     <link href="<?= base_url('assets/'); ?>css/custom/product.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>css/custom/cart.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>css/custom/home.css" rel="stylesheet">
+    <link href="<?= base_url('assets/'); ?>css/custom/responsive.css" rel="stylesheet">
 </head>
 
 <body>
@@ -96,89 +97,87 @@
                         <div class="header-bottom-area">
                             <!-- Logo  -->
                             <div class="logo">
-                                <!-- Text Based Logo -->
                                 <a href="<?= base_url('beranda'); ?>">
-                                    <span><img src="<?= base_url('assets/'); ?>img/icon/logo.svg"></span>
-                                    <p>lazy<strong>Mart</strong> <span>Belanja Jadi Mudah</span></p>
+                                    <img src="<?= base_url('assets/'); ?>img/lazymart-logo.png">
                                 </a>
                             </div>
                             <!-- End logo  -->
 
                             <!-- Start Search Box -->
-                            <div class="search-box-beranda">
-                                <form action="">
-                                    <input class="input-search" type="text" name="" id="" placeholder="Indomie Goreng Jumbo">
-                                    <button class="btn-search" type="submit"><span class="fa fa-search"></span></button>
-                                </form>
+                            <div class="search-box">
+                                <input class="input-search" type="text" placeholder="Mau belanja apa...">
+                                <button class="btn-search" type="submit"><span class="fa fa-search"></span></button>
                                 <!-- Kategory -->
                                 <ul class="navbar-nav">
                                     <li><a href="#">Sabun</span></a></li>
                                     <li><a href="#">Beras</span></a></li>
                                     <li><a href="#">Cemilan</span></a></li>
                                     <li><a href="#">Minuman</span></a></li>
-                                    <li><a href="#">Bumbu Masak</span></a></li>
                                     <li><a href="#">Indomie</span></a></li>
+                                    <li><a href="#">Kerupuk</span></a></li>
                                 </ul>
                             </div>
                             <!-- End Search Box -->
 
                             <!-- Start Navigasi -->
-                            <div class="cartbox">
-                                <a class="cart-link" href="<?= base_url('checkout') ;?>">
-                                    <i class="fas fa-shopping-cart"></i>
-                                </a>
-                                <div class="cartbox-summary">
-                                    <?php $keranjang = 'Keranjang ('.$this->cart->total_items().')' ?>
-                                    <p class="cartbox-list"><?= $keranjang ?><a>Lihat Sekarang</a></p>
-                                    <hr>
-                                    <ul>
-                                        <li>
-                                            <a class="cartbox-img" href="#"><img src="<?= base_url('assets/img/item/beras.png'); ?>" alt="img"></a>
-                                            <div class="cartbox-info">
-                                                <h4>Lumbung Padi Indonesia Beras Putih 5Kg</h4>
-                                                <p>2 Barang</p>
-                                                <p class="price">Rp72.000</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="cartbox-img" href="#"><img src="<?= base_url('assets/img/item/minyak.png'); ?>" alt="img"></a>
-                                            <div class="cartbox-info">
-                                                <h4>Minyak Goreng Sania Pouch 2 Pack x 2L (Harga + Ongkir)</h4>
-                                                <p>3 Barang</p>
-                                                <p class="price">Rp66.500</p>
-                                            </div>
-                                        </li>                                        
-                                        <li>
-                                            <a class="cartbox-img" href="#"><img src="<?= base_url('assets/img/item/miegoreng.png'); ?>" alt="img"></a>
-                                            <div class="cartbox-info">
-                                                <h4>Indomie - Goreng Special 85G - 1 Karton</h4>
-                                                <p>1 Barang</p>
-                                                <p class="price">Rp120.000</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <a class="cartbox-checkout" href="<?= base_url('checkout') ;?>">Checkout</a>
+                            <div class="nav-icon">
+                                <div class="cartbox">
+                                    <a class="cart-link" href="<?= base_url('checkout') ;?>">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </a>
+                                    <div class="cartbox-summary">
+                                        <?php $keranjang = 'Keranjang ('.$this->cart->total_items().')' ?>
+                                        <p class="cartbox-list"><?= $keranjang ?><a>Lihat Sekarang</a></p>
+                                        <hr>
+                                        <ul>
+                                            <li>
+                                                <a class="cartbox-img" href="#"><img src="<?= base_url('assets/img/item/beras.png'); ?>" alt="img"></a>
+                                                <div class="cartbox-info">
+                                                    <h4>Lumbung Padi Indonesia Beras Putih 5Kg</h4>
+                                                    <p>2 Barang</p>
+                                                    <p class="price">Rp72.000</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a class="cartbox-img" href="#"><img src="<?= base_url('assets/img/item/minyak.png'); ?>" alt="img"></a>
+                                                <div class="cartbox-info">
+                                                    <h4>Minyak Goreng Sania Pouch 2 Pack x 2L (Harga + Ongkir)</h4>
+                                                    <p>3 Barang</p>
+                                                    <p class="price">Rp66.500</p>
+                                                </div>
+                                            </li>                                        
+                                            <li>
+                                                <a class="cartbox-img" href="#"><img src="<?= base_url('assets/img/item/miegoreng.png'); ?>" alt="img"></a>
+                                                <div class="cartbox-info">
+                                                    <h4>Indomie - Goreng Special 85G - 1 Karton</h4>
+                                                    <p>1 Barang</p>
+                                                    <p class="price">Rp120.000</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <a class="cartbox-checkout" href="<?= base_url('checkout') ;?>">Checkout</a>
+                                    </div>
                                 </div>
-                                <a class="wish-link" href="#">
-                                    <i class="fas fa-heart"></i>
-                                </a>
-                                <a class="notif-link" href="#">
-                                    <i class="fas fa-bell"></i>
-                                </a>
-                            </div>
 
-                            <div class="pembatas2"></div>
+                                <div class="wish-icon">
+                                    <a class="wish-link" href="#"><i class="fas fa-heart"></i></a>
+                                </div>
 
-                            <div class="dropdown profile-menu">
-                                <div class="dropbtn">
-                                    <img src="<?= base_url('assets/admin/img/users/') . $user['image']; ?>" alt="user" class="profile-pic me-2"></a>
+                                <div class="notif-icon">
+                                    <a class="notif-link" href="#"><i class="fas fa-bell"></i></a>
+                                </div>
+
+                                <div class="pembatas"></div>
+
+                                <div class="profile">
+                                    <img class="profile-pic me-2" src="<?= base_url('assets/admin/img/users/') . $user['image']; ?>" alt="user"></a>
                                     <p class="nama-user"><?= $user['name']; ?> </p>
-                                </div>
-                                <div class="dropdown-profile">
-                                    <a href="#">Profile</a>
-                                    <a href="#">Wishlist</a>
-                                    <a href="#">Settings</a>
-                                    <a href="<?= base_url('home/logout'); ?> ">Logout</a>
+                                    <div class="dropdown-profile">
+                                        <a href="#">Profile</a>
+                                        <a href="#">Wishlist</a>
+                                        <a href="#">Settings</a>
+                                        <a href="<?= base_url('home/logout'); ?> ">Logout</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -186,6 +185,5 @@
                 </div>
             </div>
         </div>
-        <!-- End Header Bottom  -->
     </header>
     <!-- End Header Section -->
