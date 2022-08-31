@@ -674,7 +674,6 @@ img {
 
 #product .product-catg {
 	display: flex;
-	/* flex-wrap: wrap; */
 	justify-content: space-around;
 	align-content: flex-start;
 	padding: 20px 0 20px 0;

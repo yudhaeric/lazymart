@@ -1,5 +1,24 @@
 /* Responsive Area For Home Page Before Login */
 
+@media screen and (max-width: 340px) {
+    #product .judul-menu .heading {
+        font-size: 12px;
+    }
+
+    #product .judul-menu .subheading a {
+        font-size: 10px;
+    }
+
+    #product .product-catg img:nth-child(5) {
+        display: none;
+    }
+
+    #populer .kategori .card-populer {
+        width: 40%;
+        margin-left: 10px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     body {
         background-color: #EFEFEF;
@@ -124,10 +143,7 @@
     }
 
     .seq {
-        /* all: initial; */
         width: 100%;
-        /* height: 10px; */
-        /* background-size: none; */
     }
 
     .seq .seq-screen,
@@ -155,6 +171,7 @@
 
     #product {
         width: 100%;
+        height: 80%;
         background-color: #fff;
         margin: 45% 0 10px;
         padding: 0;
@@ -181,9 +198,13 @@
         font-size: 12px;
     }
 
+    #product .product-catg {
+        padding: 10px 0 10px 0;
+    }
+
     #product .product-catg img {
         width: 60px;
-        height: 70px;
+        height: 60px;
         margin-left: 10px;
         border-radius: 0;
         -webkit-border-radius: 0;
