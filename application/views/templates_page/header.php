@@ -171,7 +171,6 @@
 
                                 <div class="profile">
                                     <img class="profile-pic me-2" src="<?= base_url('assets/admin/img/users/') . $user['image']; ?>" alt="user"></a>
-                                    <p class="nama-user"><?= $user['name']; ?> </p>
                                     <div class="dropdown-profile">
                                         <a href="#">Profile</a>
                                         <a href="#">Wishlist</a>

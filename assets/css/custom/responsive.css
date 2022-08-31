@@ -4,6 +4,12 @@
     body {
         background-color: #EFEFEF;
     }
+
+    /* Style Responsive For Loading */
+    #wpf-loader-two .wpf-loader-two-inner {
+        left: 37%;
+        top: 40%;
+    }
     
     /* Style Responsive For Header */
     #header {
@@ -148,8 +154,7 @@
     /* Style Responsive For Kategori Pilihan */
 
     #product {
-        /*all: initial;
-        */width: 100%;
+        width: 100%;
         background-color: #fff;
         margin: 45% 0 10px;
         padding: 0;
@@ -159,7 +164,7 @@
         -ms-border-radius: 0;
         -o-border-radius: 0;
         box-shadow: none;
-}
+    }
 
     #product .judul-menu {
         margin: 0 10px 0 10px;
@@ -174,10 +179,6 @@
     #product .judul-menu .subheading a {
         color: #B7B7B7;
         font-size: 12px;
-    }
-
-    #product .product-catg {
-
     }
 
     #product .product-catg img {
@@ -277,21 +278,13 @@
         padding-top: 2px;
     }
     
-    /* .card-populer .card-rating {
-        padding: 0 7px;
-        display: flex;
-    } */
-    
     .card-populer .card-rating-star {
         width: 6.10px;
         height: 6px;
-        /* margin-right: 2px; */
     }
     
     .card-populer .card-rating-sold {
-        /* color: #131313; */
         font-size: 6px;
-        /* font-weight: 500; */
     }
     
     .card-populer .card-button {

@@ -25,18 +25,18 @@ class Beranda extends CI_Controller
         $this->load->view('templates_page/footer');
     }
 
-    public function add_cart($id) {
-        $produk = $this->Produk_model->find($id);
+    // public function add_cart($id) {
+    //     $produk = $this->Produk_model->find($id);
         
-        $data = array(
-            'id'      => $produk->$id,
-            'qty'     => 1
-        //     'price'   => $produk->$price,
-        //     'name'    => $produk->$name
-        );
-        $this->cart->insert($data);
-        redirect('beranda');
-    }
+    //     $data = array(
+    //         'id'      => $produk->$id,
+    //         'qty'     => 1
+    //         'price'   => $produk->$price,
+    //         'name'    => $produk->$name
+    //     );
+    //     $this->cart->insert($data);
+    //     redirect('beranda');
+    // }
 
     public function logout()
     {

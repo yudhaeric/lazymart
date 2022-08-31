@@ -1,7 +1,3 @@
-  <!-- ---------------------------- -->
-  <!--CONTENT HOME BEFORE LOGGED IN  -->
-  <!-- ---------------------------- -->
-  
   <!-- Start Scroll Top -->
   <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
   <!-- End Scroll Top -->
@@ -117,28 +113,4 @@
 
   <div class="btn-lainnya">
     <button>Lihat Lainnya</button>
-  </div>
-
-  <!-- Login Modal -->
-  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4>Login or Register</h4>
-          <form class="login-form" action="">
-            <label for="">Username or Email address<span>*</span></label>
-            <input type="text" placeholder="Username or email">
-            <label for="">Password<span>*</span></label>
-            <input type="password" placeholder="Password">
-            <button class="browse-btn" type="submit">Login</button>
-            <label for="rememberme" class="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
-            <p class="lost-password"><a href="#">Lost your password?</a></p>
-            <div class="register-now">
-              Don't have an account?<a href="account.php">Register now!</a>
-            </div>
-          </form>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
   </div>
