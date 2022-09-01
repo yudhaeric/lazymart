@@ -341,3 +341,98 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .header-top-area {
+        font-size: 10px;
+    }
+
+    .header-top-right ul {
+        margin-top: 7px;
+    }
+
+    #header .header-bottom .header-bottom-area .logo a img {
+        width: 120px;
+        height: 35px;
+    }
+
+    .header-bottom .nav-icon {
+        margin-left: 0;
+    }
+
+    #header .header-bottom .header-bottom-area .search-box input[type="text"] {
+        height: 25px;
+        font-size: 10px;
+    }
+
+    #header .header-bottom .header-bottom-area .search-box .navbar-nav li a {
+        font-size: 10px;
+    }
+
+    #header .header-bottom .header-bottom-area button {
+        height: 25px;
+        width: 30px;
+        font-size: 12px;
+        border-radius: 0 8px 8px 0;
+        -webkit-border-radius: 0 8px 8px 0;
+        -moz-border-radius: 0 8px 8px 0;
+        -ms-border-radius: 0 8px 8px 0;
+        -o-border-radius: 0 8px 8px 0;
+    }
+
+    .header-bottom-area .search-box .navbar-nav li:nth-child(5), 
+    .header-bottom-area .search-box .navbar-nav li:nth-child(6) {
+        display: none;
+    } 
+
+    .header-bottom .nav-icon {
+        margin-top: 0;
+    }
+
+    .header-bottom .nav-icon .cartbox2 .cart-link2 i {
+        font-size: 14px;
+    }
+
+    #header .header-bottom .nav-icon .pembatas {
+        height: 24px;
+        margin-right: 10px;
+    }
+
+    #header .header-bottom .nav-icon .login-btn {
+        font-size: 10px;
+        padding: 3px 9px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+    }
+
+    #header .header-bottom .nav-icon .register-btn {
+        font-size: 10px;
+        padding: 4px 9px;
+        margin-bottom: 5px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+    }
+
+    .seq .seq-screen,
+    .seq .seq-canvas,
+    .seq .seq-canvas>* {
+        margin-top: 0;
+        padding: 0;
+        height: 200px;
+    }
+
+    .seq .seq-next,
+    .seq .seq-prev {
+        top: -20px;
+        padding: 0 15px;
+        line-height: 45px;
+        pointer-events: auto;
+        font-size: 40px;
+    }
+}

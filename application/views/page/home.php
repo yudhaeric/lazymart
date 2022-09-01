@@ -11,12 +11,8 @@
             <li>
               <div class="seq-model">
                 <picture>
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 600px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 428px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 414px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 390px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 375px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(max-width: 360px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1-1000.svg" media="(min-width: 600px)">                  
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide1.svg" media="(min-width: 320px)">
                   <img data-seq src="<?= base_url('assets/'); ?>img/slider/onedesktop.jpg" alt="Belanja Bulanan Meriah" />
                 </picture>
               </div>
@@ -25,18 +21,15 @@
             <li>
               <div class="seq-model">
                 <picture>
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 600px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 428px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 414px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 390px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 375px)">
-                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(max-width: 360px)">
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2-1000.svg" media="(min-width: 600px)">                  
+                  <source srcset="<?= base_url('assets/'); ?>img/slider/slide2.svg" media="(min-width: 320px)">
                   <img data-seq src="<?= base_url('assets/'); ?>img/slider/twodesktop.png" alt="Gratis Ongkir" />
                 </picture>
               </div>
             </li>
           </ul>
         </div>
+
         <!-- Slider Navigation Btn Next / Prev -->
         <div class="seq-nav" aria-controls="sequence" aria-label="Slider buttons">
           <a type="button" class="seq-prev" aria-label="Previous"><span class="fa fa-angle-left"></span></a>

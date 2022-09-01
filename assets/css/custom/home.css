@@ -358,7 +358,6 @@ img {
 }
 
 .header-bottom .nav-icon .cartbox2 .cart-link2:hover {
-	/* background-color: #131313; */
 	opacity: 0.8;
 }
 
@@ -372,7 +371,7 @@ img {
 	width: 0;
 	height: 25px;
 	border-left: 1px solid #0091ff;
-	margin: 0 20px;
+	margin: 0 15px 0 5px;
 }
 
 #header .header-bottom .nav-icon .login-btn {
