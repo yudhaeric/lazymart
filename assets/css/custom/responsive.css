@@ -342,7 +342,7 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
     .header-top-area {
         font-size: 10px;
     }
@@ -419,6 +419,10 @@
         -o-border-radius: 7px;
     }
 
+    #slider {
+        padding-top: 130px;
+    }
+
     .seq .seq-screen,
     .seq .seq-canvas,
     .seq .seq-canvas>* {
@@ -434,5 +438,19 @@
         line-height: 45px;
         pointer-events: auto;
         font-size: 40px;
+    }
+
+    #product .product-catg img {
+        width: 120px;
+        height: 143px;
+    }
+
+    .product-catg img:nth-child(5), 
+    .product-catg img:nth-child(6) {
+        display: none;
+    } 
+
+    .card-populer {
+        width: 27%;
     }
 }

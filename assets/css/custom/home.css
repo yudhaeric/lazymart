@@ -614,7 +614,7 @@ img {
 	SLIDER SECTION
 ====================*/
 #slider {
-	padding-top: 130px;
+	padding-top: 120px;
 	z-index: 1;
 }
 
@@ -673,14 +673,14 @@ img {
 
 #product .product-catg {
 	display: flex;
-	justify-content: space-around;
-	align-content: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 	padding: 20px 0 20px 0;
 }
 
 #product .product-catg img {
-	height: 173px;
 	width: 160px;
+	height: 173px;
 	border-radius: 15px;
 	border: 1px solid #cecece;
 }
@@ -751,7 +751,6 @@ img {
 
 .card-populer {
 	font-family: 'Roboto';
-	/* width: 165px; */
 	width: 15%;
 	margin: 10px 11px 0 0;
 	overflow: hidden;
