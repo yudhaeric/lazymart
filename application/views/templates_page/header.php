@@ -98,7 +98,7 @@
                             <!-- Logo  -->
                             <div class="logo">
                                 <a href="<?= base_url('beranda'); ?>">
-                                    <img src="<?= base_url('assets/'); ?>img/logo1000.svg">
+                                    <img src="<?= base_url('assets/'); ?>img/logo.svg">
                                 </a>
                             </div>
                             <!-- End logo  -->

@@ -97,7 +97,7 @@
                             <!-- Logo  -->
                             <div class="logo">
                                 <a href="<?= base_url(''); ?>">
-                                    <img src="<?= base_url('assets/'); ?>img/lazymart-logo.png">
+                                    <img src="<?= base_url('assets/'); ?>img/logo.svg">
                                 </a>
                             </div>
                             <!-- End logo  -->

@@ -1,8 +1,8 @@
     <!-- Start Footer -->
     <footer class="footer-area" id="scroll-footer">
         <div class="container">
-            <div class="row layanan">
-                <div class="col-lg-2 col-md-6 bantuan">
+            <div class="layanan">
+                <div class="bantuan">
                     <h3>Bantuan</h3>
                     <ul>
                         <li><a>Pembayaran</a></li>
@@ -14,7 +14,7 @@
                         <li><a>Hubungi Kami</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6 customercare">
+                <div class="customercare">
                     <h3>Customer Care</h3>
                     <ul>
                         <li><a>Buka 24 jam setiap hari</a></li>
@@ -27,7 +27,7 @@
                         <li><a>0805 1 864 864</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6 info">
+                <div class="info">
                     <h3>Info Lazymart</h3>
                     <ul>
                         <li><a>Tentang Lazymart</a></li>
@@ -37,7 +37,7 @@
                         <li><a>Karir</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6 ikutikami">
+                <div class="ikutikami">
                     <h3>Ikuti Kami</h3>
                     <a><img src="<?= base_url('assets/'); ?>img/icon/ig.png" alt=""></a>
                     <a><img src="<?= base_url('assets/'); ?>img/icon/tw.png" alt=""></a>

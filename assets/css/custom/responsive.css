@@ -453,4 +453,25 @@
     .card-populer {
         width: 27%;
     }
+
+    .btn-lainnya button {
+        display: block;
+        width: 50%;
+        text-align: center;
+        font-size: 10px;
+        font-family: 'Open Sans', sans-serif;
+        color: #0091FF;
+        background-color: #fff;
+        border: 1px solid #0091FF;
+        margin: 50px auto 50px;
+        padding: 10px 0;
+    }
+
+    .pembatas-section2 {
+        display: none;
+    }
+
+    .footer-area {
+        display: none;
+    }
 }

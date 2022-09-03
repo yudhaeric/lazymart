@@ -877,13 +877,16 @@ img {
     Footer
 -------------------------------------------------------------------*/
 .footer-area {
-	width: 1349px;
+	width: 100%;
 	margin-top: 30px;
 	background-color: #0091ff;
 }
 
 .footer-area .layanan {
 	margin-bottom: 20px;
+	padding-top: 11px;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .footer-area h3 {
@@ -900,22 +903,8 @@ img {
 	padding-bottom: 5px;
 }
 
-.footer-area .row {
-	padding-top: 11px;
-}
-
 .footer-area .customercare {
-	margin-left: 80px;
-	width: 280px;
-}
-
-.footer-area .info {
-	margin-left: 70px;
-}
-
-.footer-area .ikutikami {
-	margin-left: 50px;
-	display: inline;
+	width: 25%;
 }
 
 .footer-area .ikutikami img {
@@ -925,15 +914,14 @@ img {
 }
 
 .footer-area .ikutikami .download {
-	width: 120px;
-	height: 37px;
+	width: 55%;
+	height: 45px;
+	margin-bottom: 5px;
 }
 
 .footer-area .ikutikami .download2 {
-	width: 120px;
-	height: 37px;
-	margin-left: 130px;
-	margin-top: -60px;
+	width: 55%;
+	height: 45px;
 }
 
 .footer-area-checkout {
@@ -1000,7 +988,6 @@ img {
 	background-color: white;
 	color: #121212;
 	text-align: center;
-	padding-left: -100px;
 }
 
 .copyright p {
