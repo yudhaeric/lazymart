@@ -65,7 +65,7 @@ class M_dashboard extends CI_Model
         $data = [
             'name' => $this->input->post('namaPengguna'),
             'email' => $this->input->post('email'),
-            'image' => 'default.jpg',
+            'image' => 'gambar-1.jpg',
             'password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
             'role_id' => $this->input->post('status'),
             'is_active' => 1,
