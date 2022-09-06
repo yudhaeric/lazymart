@@ -1,4 +1,4 @@
-# Lazymart E-commerce Website
+# Lazymart E-Commerce Website
 
 This project is my assignment for web programming course 2 in semester 5. <br>
 **Live URL: https://lazymart.000webhostapp.com**
