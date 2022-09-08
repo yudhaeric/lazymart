@@ -17,7 +17,7 @@ This project is my assignment for web programming course 2 in semester 5. <br>
 
 ## Feature
 - Responsive on phones and tablet
-- You can register and create your own account, the default is as a member.
+- You can register and create your own account, the default role is as a member.
 - When logging in to the account, there are 2 user roles admin and member, <br> but when logging in as a member there are still no features that can be used :D
 - If you are logged in as admin, you can create, read, delete and edit product, user, and profile data.
 
